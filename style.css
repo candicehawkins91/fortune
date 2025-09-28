@@ -1,15 +1,36 @@
-img{
-    width: 20rem;
-    height: 30rem;
-    margin-bottom: 20px;
-}
-#fName{
-    margin-bottom: 20px;
-}
-#age{
-    margin-bottom: 20px;
-}
-body{
-    display: flex;
-    flex-direction: column ;
-}
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        color: #fff;
+        text-align: center;
+        padding: 50px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    input,
+    button {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    button {
+        background: #ffb347;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background: #ffcc33;
+    }
+
+    #result {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
